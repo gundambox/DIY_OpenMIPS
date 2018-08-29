@@ -1,0 +1,12 @@
+incremental_db/
+simulation/
+db/
+*.bak
+*.rpt
+*.done
+*.summary
+*.pin
+*.qpf
+*.qsf
+*.sof
+*_description.txt
