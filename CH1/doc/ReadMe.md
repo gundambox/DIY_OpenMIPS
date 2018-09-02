@@ -7,6 +7,13 @@
     sudo apt-get install gcc-mips-linux-gnu
     ```
 
+* Data Hazard:
+    原本以為以下的code可以執行，但模擬後發現register的資料有問題，才想起來上課教的`Data Hazard`
+    ```asm
+    ori $1, $0, 0x0011
+    ori $2, $1, 0x1100
+    ```
+
 ## 模擬結果
 
 * ![模擬結果](SimulationResult.PNG)
