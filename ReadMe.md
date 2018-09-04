@@ -11,6 +11,8 @@
 1. [第一次用pipeline就上手及CPU第一條指令ori](CH1/doc/ReadMe.md)
 2. [身為一個CPU，會邏輯跟位移運算也是很正常的](CH2/doc/ReadMe.md)
 3. [~~至高~~移動指令](CH3/doc/ReadMe.md)
+4. 算術要做什麼？有沒有空？可以來實做嗎？
+    1. [簡單算術實做](CH4_1/doc/ReadMe.md)
 
 ## 疑惑
 
