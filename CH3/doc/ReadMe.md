@@ -7,5 +7,5 @@
 
 ## 模擬結果
 
-* 邏輯運算
+* 移動運算
     ![移動運算](SimulationResult_1.PNG)
