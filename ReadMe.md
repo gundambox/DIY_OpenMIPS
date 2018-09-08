@@ -7,9 +7,9 @@
 * 次因:
     某天在看 jserv 的直播《你所不知道的C語言》聽到 jserv 說，資工系都有教計算機組織跟作業系統，所以理論上每個資工系畢業應該都要可以弄一個CPU跟OS出來。所以為了當一名~~合格~~的資工系畢業學生，只好找本書來參考，寫一個軟核心的CPU，並且嘗試porting一個作業系統到FPGA板子上。
 
-## 每篇心得連結
+## 每篇實作心得連結
 
-雖然是照著別人的東西去做，但還是會踩到地雷，所以每一篇都會特別紀錄。
+雖然是照著別人的東西再做一遍，但還是會踩到地雷，所以每一篇都會特別紀錄哪些觀念花比較多時間理解。
 
 1. [第一次用pipeline就上手及CPU第一條指令ori](CH1/doc/ReadMe.md)
 2. [身為一個CPU，會邏輯跟位移運算也是很正常的](CH2/doc/ReadMe.md)
@@ -18,6 +18,7 @@
     1. [簡單算術實做](CH4_1/doc/ReadMe.md)
     2. [在單一週期內尋求暫停管線是否搞錯了什麼？](CH4_2/doc/ReadMe.md)
     3. [給我一個零點，除法可以舉起(raise)一個例外](CH4_3/doc/ReadMe.md)
+5. [跳躍吧！分支](CH5/doc/ReadMe.md)
 
 ## 疑惑
 
@@ -25,7 +26,7 @@
 
 - [x] **Q**: AluOp到底是怎麼決定的？《自己動手寫CPU》中只有提到每個指令的opcode，卻沒有特別說明，AluOp如何產生。(最雷的是《計算機組織與設計》上說詳細請參考附錄D，結果附錄只有A, B, F) - 2018/09/02 新增
 
-    **A**: 重讀計算機組織與設計關於AluOp的設計才弄懂。因為MIPS32的功能設計有`AND, OR, add, subtract, set on less than, NOR`，至少需要3 bits才能表示。加上function field的5 bits，總共8 bits。這應該就是《自己動手寫CPU》的AluOp共8 bits的原因，至於function field的編碼不知道是作者遵守OpenMIPS的規則還是自己編的。 - 2018/09/04 更新
+    **A**: 重讀《計算機組織與設計》關於AluOp的設計才弄懂。因為MIPS32的功能設計有`AND, OR, add, subtract, set on less than, NOR`，至少需要3 bits才能表示。加上function field的5 bits，總共8 bits。這應該就是《自己動手寫CPU》的AluOp共8 bits的原因，至於function field的編碼不知道是作者遵守OpenMIPS的規則還是自己編的。 - 2018/09/04 更新
 - [ ] **Q**: 好奇《自己動手寫CPU》的作者在page.7-41的程式碼，為什麼不要在前面的第二段就決定`stallreq`，反而還要特別弄一個變數`stallreq_for_madd_msub`出來？ - 2018/09/06 新增
     ```Verilog HDL
     // 第三段: 暫停管線
