@@ -10,3 +10,4 @@ db/
 *.qsf
 *.sof
 *_description.txt
+*.smsg
