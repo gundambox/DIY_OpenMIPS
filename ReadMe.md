@@ -23,6 +23,7 @@
 5. [跳躍吧！分支](CH5/doc/ReadMe.md)
 6. 不能操作記憶體的CPU沒有使用的必要
     1. [S/L大法](CH6_1/doc/ReadMe.md)
+    2. [S/L大法2 - RMW](CH6_2/doc/ReadMe.md)
 
 ## 疑惑
 
