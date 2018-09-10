@@ -7,6 +7,6 @@
 ## 模擬結果
 
 * 邏輯運算
-    ![邏輯運算](SimulationResult_1.PNG)
+    ![邏輯運算](Test1/SimulationResult_1.PNG)
 * 位移運算
-    ![位移運算](SimulationResult_2.PNG)
+    ![位移運算](Test2/SimulationResult_1.PNG)
