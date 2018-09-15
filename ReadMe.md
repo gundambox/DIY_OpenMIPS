@@ -24,6 +24,7 @@
     1. [S/L大法](CH6_1/doc/ReadMe.md)
     2. [S/L大法2 - RMW](CH6_2/doc/ReadMe.md)
 7. [Coprocessor 是什麼，能吃嗎？](CH7/doc/ReadMe.md)
+8. [例外與中斷的慘烈修羅場](CH8/doc/ReadMe.md)
 
 ## 疑惑
 
