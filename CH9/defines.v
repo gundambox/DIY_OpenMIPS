@@ -288,4 +288,4 @@
 `define WB_IDLE                 2'b00
 `define WB_BUSY                 2'b01
 `define WB_WAIT_FOR_FLUSHING    2'b10
-`define WB_WAIT_FOR_STALL       2'b11
+`define WB_WAIT_FOR_STOP_ALL    2'b11
